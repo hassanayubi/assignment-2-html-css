@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 2
+
+    </title>
+</head>
+<body>
+    <!--Form -->
+<section>
+    <div class="container">
+        
+        <h1><u>Registration Form</u></h1>
+  
+    <article><i>Please Fill this Form With Correct Information</i></article>
+    <br>
+
+   <form>
+    <label for="firstname">Enter Your <b>First Name</b>:</label>
+    <br>
+    <input type="text" id="firstname" name="firstname" placeholder="Laiba...">
+    <br>
+    <label for="lastname">Enter Your <b>Last Name</b>:</label>
+    <br>
+    <input type="text" name="lastname" id="lastname" placeholder="Malik...">
+    <br>
+    <label for="gender">Choose Your <b>Gender</b></label> <br>
+    <input type="radio" id="male" name="male" value="male">
+    <label for="male"><i>Male</i></label>
+    <br>
+    <input type="radio" name="female" id="female" value="female">
+    <label for="female"><i>Female</i></label>
+    <br>
+    <label for="age"> Enter Your <b>Age</b>:</label>
+    <br>
+    <input type="number" name="age" id="age" placeholder="age in numbers">
+    <br>
+    <label for="email">Enter Your <b>Email Address</b>:</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="abc@gmail.com" >
+    <br>
+    <label for="password">Create a <b>new Password </b></label>
+    <br>
+    <input type="password" name="password" id="password" placeholder="*******">
+
+    <hr>
+    <label for="photo">Upload Your <b>Photo</b>:</label>
+    <br>
+    <input type="file" name="photo" id="photo" >
+    <hr>
+   
+    
+    <article><i>Tell Us About Yourself.</i></article>
+    <textarea name="message" id="message" cols="30" rows="6" placeholder="I am student of bano qabil..."></textarea>
+
+    <hr>
+    <input type="checkbox" name="accept" id="accept" value="accept">
+    <label for="accept">Do You Accept <a href="https://www.facebook.com/policies_center"> terms and policies</a>?</label>
+    <br>
+   <button type="submit" onclick="alert('Form is submitted!')"> Submit </button>
+</form>
+</div>
+</section>
+
+    <!--Styling    -->
+
+<style>
+    *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+    }
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(https://static.vecteezy.com/system/resources/previews/002/037/924/non_2x/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg);
+    }
+    .container{
+        border: 5px dotted chocolate;
+        box-shadow: 20px;
+    }
+    h1{
+        color: rgb(72, 38, 18);
+        padding: 20px;
+    }
+    input#firstname,#lastname,#age,#email,#password,#message{
+        width: 200px;
+        border-radius: 10% ;
+        background-color: rgb(146, 211, 146);
+    }
+    article{
+        font-size: 19px;
+    }
+    button{
+        width: 200px;
+        align-content: center;
+        justify-content: center;
+        height: 200;
+        color: blue;
+        background-color: rgb(136, 189, 189);
+    }
+
+   
+    
+</style>
+</body>
+</html>
